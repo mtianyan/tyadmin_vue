@@ -14,6 +14,10 @@ import router from './router'
 
 import '@/icons' // icon
 import '@/permission' // permission control
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
+import Viser from 'viser-vue'
+Vue.use(Viser)
 
 /**
  * If you don't want to use mock-server
